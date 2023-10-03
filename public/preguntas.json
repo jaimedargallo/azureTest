@@ -1,0 +1,15 @@
+[
+    {
+      "pregunta": "¿Cuál es la capital de España?",
+      "respuestas": ["Madrid", "Barcelona", "Valencia", "Sevilla"]
+    },
+    {
+      "pregunta": "¿Cuál es el río más largo de España?",
+      "respuestas": ["Ebro", "Duero", "Tajo", "Guadiana"]
+    },
+    {
+      "pregunta": "¿Cuál es el pico más alto de España?",
+      "respuestas": ["Mulhacén", "Aneto", "Pico de Europa", "Pico Almanzor"]
+    }
+  ]
+  
