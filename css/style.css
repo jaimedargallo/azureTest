@@ -1,0 +1,49 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-top: 0;
+  }
+  
+  .pregunta {
+    margin-bottom: 1rem;
+  }
+  
+  .pregunta h2 {
+    font-size: 1.5rem;
+  }
+  
+  .respuesta {
+    margin-bottom: 0.5rem;
+  }
+  
+  .respuesta li {
+    list-style-type: none;
+    padding: 0.5rem;
+  }
+  
+  .respuesta li.correcta {
+    background-color: #008000;
+    color: #fff;
+  }
+  
+  .respuesta li.incorrecta {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .boton {
+    background-color: #008000;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background-color: #006000;
+  }
+  
