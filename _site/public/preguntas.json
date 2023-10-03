@@ -1,0 +1,13 @@
+[
+    {
+      "pregunta": "¿Cuál es la capital de España?",
+      "respuestas": ["Madrid", "Barcelona", "Valencia", "Sevilla"],
+      "respuestaCorrecta": "Madrid"
+    },
+    {
+      "pregunta": "¿Cuál es el río más largo de España?",
+      "respuestas": ["Ebro", "Duero", "Tajo", "Guadiana"],
+      "respuestaCorrecta": "Ebro"
+    }
+  ]
+  
