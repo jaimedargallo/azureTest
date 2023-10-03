@@ -1,6 +1,6 @@
 // Cargar el archivo JSON
 const xhr = new XMLHttpRequest();
-xhr.open("GET", "/preguntas.json");
+xhr.open("GET", "public/preguntas.json");
 xhr.onload = function() {
   // Parsear el archivo JSON
   const preguntas = JSON.parse(xhr.responseText);
