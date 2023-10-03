@@ -69,15 +69,11 @@ section ul li label {
   font-size: 1em;
 }
 
-section footer {
-  text-align: center;
-}
-
-section footer button {
+footer {
   background-color: #29B2D2;
   color: #fff;
   font-size: 1em;
   padding: 10px 20px;
   border: none;
-  cursor: pointer;
+  text-align: center;
 }

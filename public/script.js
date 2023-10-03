@@ -19,7 +19,7 @@ xhr.onload = function() {
       <li>${preguntas[0].respuestas[3]}</li>
     </ul>
   `;
-  document.body.appendChild(divPregunta);
+  document.body.main.appendChild(divPregunta);
 
   // Obtener la respuesta del usuario
   const btnRespuesta = document.querySelector("input[type='radio']:checked");
