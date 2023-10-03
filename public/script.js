@@ -1,23 +1,48 @@
 // Cargar el archivo JSON
 const xhr = new XMLHttpRequest();
-xhr.open("GET", "public/preguntas.json");
+xhr.open("GET", "/preguntas.json");
 xhr.onload = function() {
   // Parsear el archivo JSON
   const preguntas = JSON.parse(xhr.responseText);
 
-  // Mostrar las preguntas
-  for (const pregunta of preguntas) {
-    const divPregunta = document.createElement("div");
-    divPregunta.innerHTML = `
-      <h2>${pregunta.pregunta}</h2>
-      <ul>
-        <li>${pregunta.respuestas[0]}</li>
-        <li>${pregunta.respuestas[1]}</li>
-        <li>${pregunta.respuestas[2]}</li>
-        <li>${pregunta.respuestas[3]}</li>
-      </ul>
-    `;
-    document.body.appendChild(divPregunta);
-  }
+  // Agregar una variable para almacenar la respuesta del usuario
+  let respuestaUsuario;
+
+  // Mostrar la pregunta
+  const divPregunta = document.createElement("div");
+  divPregunta.innerHTML = `
+    <h2>${preguntas[0].pregunta}</h2>
+    <ul>
+      <li>${preguntas[0].respuestas[0]}</li>
+      <li>${preguntas[0].respuestas[1]}</li>
+      <li>${preguntas[0].respuestas[2]}</li>
+      <li>${preguntas[0].respuestas[3]}</li>
+    </ul>
+  `;
+  document.body.appendChild(divPregunta);
+
+  // Obtener la respuesta del usuario
+  const btnRespuesta = document.querySelector("input[type='radio']:checked");
+  respuestaUsuario = btnRespuesta.value;
+
+  // Comprobar la respuesta del usuario
+  const isCorrecta = comprobarRespuesta(respuestaUsuario, preguntas[0].respuestaCorrecta);
+
+  // Mostrar un mensaje de respuesta
+  mostrarMensajeRespuesta(isCorrecta);
 };
 xhr.send();
+
+// Función para comprobar la respuesta del usuario
+function comprobarRespuesta(respuestaUsuario, respuestaCorrecta) {
+  return respuestaUsuario === respuestaCorrecta;
+}
+
+// Función para mostrar un mensaje de respuesta
+function mostrarMensajeRespuesta(isCorrecta) {
+  if (isCorrecta) {
+    alert("Respuesta correcta");
+  } else {
+    alert("Respuesta incorrecta");
+  }
+}
