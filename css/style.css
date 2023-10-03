@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #000;
+  background-color: #29B2D2;
   color: #fff;
   height: 50px;
   padding: 10px;
@@ -74,7 +74,7 @@ section footer {
 }
 
 section footer button {
-  background-color: #000;
+  background-color: #29B2D2;
   color: #fff;
   font-size: 1em;
   padding: 10px 20px;
