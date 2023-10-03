@@ -1,49 +1,83 @@
 body {
-    font-family: sans-serif;
-    background-color: #c0c0c0;
-  }
-  
-  h1 {
-    font-size: 2rem;
-    margin-top: 0;
-  }
-  
-  .pregunta {
-    margin-bottom: 1rem;
-  }
-  
-  .pregunta h2 {
-    font-size: 1.5rem;
-  }
-  
-  .respuesta {
-    margin-bottom: 0.5rem;
-  }
-  
-  .respuesta li {
-    list-style-type: none;
-    padding: 0.5rem;
-  }
-  
-  .respuesta li.correcta {
-    background-color: #008000;
-    color: #fff;
-  }
-  
-  .respuesta li.incorrecta {
-    background-color: #ff0000;
-    color: #fff;
-  }
-  
-  .boton {
-    background-color: #008000;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
-    cursor: pointer;
-  }
-  
-  .boton:hover {
-    background-color: #006000;
-  }
-  
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #ccc;
+  height: 50px;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+}
+
+header h1 {
+  font-size: 2em;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+main h2 {
+  font-size: 1.5em;
+}
+
+section ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+section ul li {
+  display: flex;
+  justify-content: space-between;
+}
+
+section ul li input {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+section ul li label {
+  font-size: 1em;
+}
+
+section footer {
+  text-align: center;
+}
+
+section footer button {
+  background-color: #000;
+  color: #fff;
+  font-size: 1em;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
