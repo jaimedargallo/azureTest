@@ -1,13 +1,7 @@
-/*
-      "pregunta": "¿Cuál es la capital de España?",
-      "respuestas": ["Madrid", "Barcelona", "Valencia", "Sevilla"],
-      "respuestaCorrecta": "Madrid"
-*/
-
   {
-    "testName" : "Test Azure Az-104",
+    "testName" : "Test",
+    "author" : "Jaime Dargallo",
     "created" : 2023,
-    "active" : true,
     "questions" : [
       {
         "question" : "¿Cuál es la capital de España?",

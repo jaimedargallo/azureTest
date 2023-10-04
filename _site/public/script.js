@@ -32,13 +32,13 @@ function showQuestions(jsonObj) {
   for (var i = 0; i < questions.length; i++) {
     const myArticle = document.createElement("article");
     const myPara1 = document.createElement("p");
-    const myPara2 = document.createElement("p");
+    const myPara2 = document.createElement("ul");
     const myPara3 = document.createElement("p");
 
 
     // myH2.textContent = questions[i].name;
     myPara1.textContent = "Pregunta: " + questions[i].question;
-    myPara2.textContent = "Respuestas: " + questions[i].answers;
+    myPara2.textContent = "Respuestas: " + questions[i].answers[i];
     myPara3.textContent = "Respuesta correcta:" + questions[i].correctAnswer;
 
     /* const superPowers = questions[i].powers;
