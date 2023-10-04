@@ -11,12 +11,12 @@ xhr.onload = function() {
   // Mostrar la pregunta
   const divPregunta = document.createElement("div");
   divPregunta.innerHTML = `
-    <h2>${preguntas[0].pregunta}</h2>
+    <h2>${preguntas[1].pregunta}</h2>
     <ul>
-      <li>${preguntas[0].respuestas[0]}</li>
-      <li>${preguntas[0].respuestas[1]}</li>
-      <li>${preguntas[0].respuestas[2]}</li>
-      <li>${preguntas[0].respuestas[3]}</li>
+      <li>${preguntas[1].respuestas[0]}</li>
+      <li>${preguntas[1].respuestas[1]}</li>
+      <li>${preguntas[1].respuestas[2]}</li>
+      <li>${preguntas[1].respuestas[3]}</li>
     </ul>
   `;
   document.body.main.appendChild(divPregunta);
