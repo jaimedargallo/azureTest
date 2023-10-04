@@ -1,13 +1,29 @@
-[
-    {
+/*
       "pregunta": "¿Cuál es la capital de España?",
       "respuestas": ["Madrid", "Barcelona", "Valencia", "Sevilla"],
       "respuestaCorrecta": "Madrid"
-    },
-    {
-      "pregunta": "¿Cuál es el río más largo de España?",
-      "respuestas": ["Ebro", "Duero", "Tajo", "Guadiana"],
-      "respuestaCorrecta": "Ebro"
-    }
-  ]
+*/
+
+  {
+    "testName" : "Test Azure Az-104",
+    "created" : 2023,
+    "active" : true,
+    "questions" : [
+      {
+        "question" : "¿Cuál es la capital de España?",
+        "answers" : ["Madrid", "Barcelona", "Valencia", "Sevilla"],
+        "correctAnswer" : "Madrid"
+      },
+      {
+        "question" : "¿Cuál es el rio más largo de España?",
+        "answers" : ["Ebro", "Tajo", "Guadiana", "Miño"],
+        "correctAnswer" : "Ebro"
+      },
+      {
+        "question" : "¿Quien es el rey de España?",
+        "answers" : ["Froilan", "Felipe", "Juancar", "Jaime"],
+        "correctAnswer" : "Felipe"
+      }
+    ]
+  }
   

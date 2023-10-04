@@ -7,14 +7,14 @@ body {
 header {
   background-color: #29B2D2;
   color: #fff;
-  height: 50px;
-  padding: 10px;
+  height: 3.3em;
+  padding: 0.2em 0.2em 0.4em;
   text-align: center;
 }
 
 nav {
   background-color: #ccc;
-  height: 50px;
+  height: 30px;
   padding: 10px;
   text-align: center;
 }
@@ -37,6 +37,7 @@ header h1 {
 nav a {
   color: #000;
   text-decoration: none;
+  
 }
 
 nav a:hover {
