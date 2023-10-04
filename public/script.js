@@ -1,3 +1,5 @@
+// https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON
+
 const header = document.querySelector("header");
 const section = document.querySelector("section");
 
@@ -41,13 +43,13 @@ function showQuestions(jsonObj) {
     myPara2.textContent = "Respuestas: " + questions[i].answers[i];
     myPara3.textContent = "Respuesta correcta:" + questions[i].correctAnswer;
 
-    /* const superPowers = questions[i].powers;
+    const superPowers = questions[i].powers;
     for (var j = 0; j < superPowers.length; j++) {
       const listItem = document.createElement("li");
       listItem.textContent = superPowers[j];
       myList.appendChild(listItem);
     }
-    */
+  
 
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
