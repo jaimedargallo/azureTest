@@ -37,6 +37,7 @@ header h1 {
 nav a {
   color: #000;
   text-decoration: none;
+  padding: 20px;
 }
 
 nav a:hover {
