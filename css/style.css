@@ -37,12 +37,14 @@ header h1 {
 nav a {
   color: #000;
   text-decoration: none;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 nav a:hover {
-  color: #fff;
-  background-color: #000;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    color: white;
+    transition: all 0.2s ease-in-out;
 }
 
 main h2 {
