@@ -1,0 +1,17 @@
+{
+  "name": "azuretest",
+  "version": "1.0.0",
+  "private": true,
+  "author": "JaimeDargallo",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx vite build",
+    "preview": "npm run build && npx vite preview",
+    "format": "npx prettier --write .",
+    "deploy": "npx vercel --prod"
+  },
+  "devDependencies": {
+    "prettier": "2.8.8",
+    "vite": "4.3.9"
+  }
+}
