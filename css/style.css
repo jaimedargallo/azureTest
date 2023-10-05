@@ -1,82 +1,89 @@
+/* || general styles */
+
+html {
+  font-family: sans-serif, helvetica, arial;
+}
+
 body {
-  font-family: sans-serif;
   margin: 0;
   padding: 0;
 }
+
+/* header styles */
 
 header {
   background-color: #29B2D2;
   color: #fff;
   height: 3.3em;
-  padding: 0.2em 0.2em 0.4em;
   text-align: center;
 }
 
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px;
+}
+
+header p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* nav styles */ 
 nav {
   background-color: #ccc;
   height: 30px;
-  padding: 10px;
+  padding: 20px 20px 10px;
   text-align: center;
-}
-
-main {
-  width: 500px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-section {
-  background-color: #fff;
-  padding: 20px;
-}
-
-header h1 {
-  font-size: 2em;
 }
 
 nav a {
   color: #000;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 0 20px;
 }
 
 nav a:hover {
     background-color: rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
+    border-radius: 5px;
     color: white;
     transition: all 0.2s ease-in-out;
 }
 
-main h2 {
-  font-size: 1.5em;
+/* section styles */
+
+section article {
+  width: 100%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+section p {
+  margin: 5px 0;
 }
 
 section ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 5px 0;
+  list-style: none;
 }
 
-section ul li {
-  display: flex;
-  justify-content: space-between;
+section li {
+  margin: 5px 0;
 }
 
-section ul li input {
-  margin-right: 10px;
-  width: 20px;
-  height: 20px;
+input  {
 }
 
-section ul li label {
-  font-size: 1em;
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
 }
 
 footer {
   background-color: #29B2D2;
   color: #fff;
-  font-size: 1em;
-  padding: 10px 20px;
-  border: none;
-  text-align: center;
+  height: 3.3em;
+  padding: 0.2em 1em 0.4em;
+  text-align: right;
 }
