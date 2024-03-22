@@ -60,10 +60,10 @@ To see how you can add code snippets, see below:
 
 ## Author
 
-- Twitter - [@jaimedargallo](https://twitter.com/jaimedargallo)
-- Github - [@jaimedargallo](https://github.com/jaimedargallo)
-- Codepen - [@jaimedargallo](https://codepen.io/jaimedargallo)
-- Frontend Mentor - [@jaimedargallo](https://www.frontendmentor.io/profile/jaimedargallo)
+- [Twitter](https://twitter.com/jaimedargallo)
+- [Github](https://github.com/jaimedargallo)
+- [Codepen](https://codepen.io/jaimedargallo)
+- [Frontend Mentor](https://www.frontendmentor.io/profile/jaimedargallo)
 
 
 
